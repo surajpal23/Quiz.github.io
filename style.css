@@ -1,0 +1,69 @@
+body {
+background-color: #ddffdd;
+font-family: serif;
+}
+#main {
+width: 80%;
+max-width: 950px;
+border: 1px gray solid;
+margin: auto;
+padding: 10px;
+background-color: white;
+border-radius: 10px;
+}
+#header {
+margin-top: 0;
+border: 2px solid black;
+padding: 5px;
+height: 250px;
+background: beige;
+background-image: url("image/mcq.png");
+color: white;
+}
+label {
+display: block;
+}
+input {
+width: 30px;
+margin-left: 20px;
+}
+h2 {
+clear: both;
+padding: 10px;
+background-color: skyblue;
+border-radius: 5px;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+p{
+    text-align: center;
+}
+button {
+width: 100px;
+margin-top: 20px;
+}
+.submit{
+    text-align: center;
+}
+.outer{ 
+    text-align: corners;
+    width: 20px;
+    height: 80px;
+    border-style: solid;
+    background-color: black;
+}
+.l1{
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+    height: 50px;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  .l2{
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+    height: 50px;
+  }
+  
